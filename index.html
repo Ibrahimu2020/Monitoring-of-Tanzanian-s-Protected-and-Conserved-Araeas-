@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"></noscript>
+<link rel="stylesheet" href="style.css"><link rel="preload" as="image" href="Tanzania.jpg" fetchpriority="high"><title>Forest Index & Soil Monitor – Tanzania Protected Areas</title>
+<meta name="description" content="Check vegetation, soil nutrients and land cover inside any Tanzania protected area."></head><body>
+<header class="site"><div class="bar">
+  <a class="brand" href="index.html" aria-label="Nature Pulse – home"><img class="logo" src="logo.png" alt="" width="38" height="43"><span>Nature Pulse</span></a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="app.html">App</a>
+    <a href="about.html">About</a>
+  </nav>
+</div></header>
+<main>
+<section class="hero">
+<div class="hero-grid">
+<div class="hero-text">
+  <div class="strip" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <h1>See how Tanzania's forests are doing</h1>
+  <p class="lead">Pick a protected area, choose a layer and a date range, and get a map, statistics and a trend chart for that forest only.</p>
+  <a class="btn" href="app.html">Open the app</a><a class="btn ghost" href="about.html">How it works</a>
+</div>
+<figure class="hero-map" role="img" aria-label="Map of Tanzania showing the forest and game reserves in green">
+  <img src="Tanzania.jpg" alt="" width="1600" height="1128" fetchpriority="high" decoding="async">
+</figure>
+</div>
+</section>
+
+<section>
+  <h2>What you can measure</h2>
+  <div class="layers">
+    <div class="layer"><div><h3>NDVI</h3><span class="tag">Vegetation greenness</span></div><p>Shows how green and dense the vegetation is. Works with satellite images back to 1972.</p></div>
+    <div class="layer"><div><h3>EVI</h3><span class="tag">Enhanced vegetation</span></div><p>Like NDVI, but better in very dense forest where NDVI levels off.</p></div>
+    <div class="layer"><div><h3>NBR</h3><span class="tag">Burn and forest condition</span></div><p>Highlights burned or stressed areas, such as after a fire.</p></div>
+    <div class="layer"><div><h3>MNDWI</h3><span class="tag">Water and moisture</span></div><p>Finds open water, wet ground and dry surfaces.</p></div>
+    <div class="layer"><div><h3>Soil nutrients</h3><span class="tag">Nitrogen, phosphorus, potassium</span></div><p>Topsoil (0–20 cm) maps at 30 m resolution from iSDAsoil.</p></div>
+    <div class="layer"><div><h3>Land cover</h3><span class="tag">ESA WorldCover, 10 m</span></div><p>Tree cover, shrubland, grassland, cropland, water and more, with the area of each in hectares.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Use it in four steps</h2>
+  <ol class="steps">
+    <li>Type a forest name or pick one from the list.</li>
+    <li>Choose an index, soil layer or land cover.</li>
+    <li>For indices, choose a sensor, a date range and a cloud-cover limit.</li>
+    <li>Click <strong>Run</strong> to see the map, class areas and chart.</li>
+  </ol>
+</section>
+</main>
+<footer class="site"><div class="bar"><span>Tanzania Protected Areas &middot; built on Google Earth Engine</span><span>&copy; 2026 &middot; <em>Developed by Ibrahimu</em></span></div></footer>
+<script src="welcome.js"></script></body></html>

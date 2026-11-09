@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"></noscript>
+<link rel="stylesheet" href="style.css"><title>About – Forest Index & Soil Monitor</title></head><body>
+<header class="site"><div class="bar">
+  <a class="brand" href="index.html" aria-label="Nature Pulse – home"><img class="logo" src="logo.png" alt="" width="38" height="43"><span>Nature Pulse</span></a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="app.html">App</a>
+    <a href="about.html" aria-current="page">About</a>
+  </nav>
+</div></header>
+<main>
+<section class="hero">
+  <h1>About this system</h1>
+  <p class="lead">This interactive dashboard enables you to monitor long-term and recent forest cover changes within protected landscapes, Compare forest gains and losses across Tanzania, identify areas experiencing significant forest decline or recovery, support evidence-based conservation and biodiversity planning.</p>
+</section>
+
+<section style="padding-top:0">
+  <h2>What it does</h2>
+  <p>The dashboard combines satellite-derived forest cover data for Protected and Conserved Areas to provide insights into how they changed over time, use a filter to choose a protected area, explore maps, charts and indicator to understand forest cover trends.</p>
+  <p>The list covers Tanzania protected and conserved areas of all types.</p>
+</section>
+
+<section style="padding-top:0">
+  <h2>Data sources</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Layer</th><th>Source</th><th>Resolution</th><th>Period</th></tr></thead>
+    <tbody>
+      <tr><td>Vegetation indices</td><td>Landsat 1–9 surface reflectance</td><td>30 m (MSS: 60 m)</td><td>1972 – present</td></tr>
+      <tr><td>Vegetation indices</td><td>Sentinel-2 MSI surface reflectance</td><td>10–20 m</td><td>2017 – present</td></tr>
+      <tr><td>Soil nutrients</td><td>iSDAsoil (nitrogen, phosphorus, potassium)</td><td>30 m, 0–20 cm</td><td>Static map</td></tr>
+      <tr><td>Land cover</td><td>ESA WorldCover v100 / v200</td><td>10 m</td><td>2020, 2021</td></tr>
+      <tr><td>Boundaries</td><td>Tanzania Protected Areas table</td><td>Vector</td><td>–</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section style="padding-top:0">
+  <h2>How to read the results</h2>
+  <p><strong>Five classes.</strong> Each index is split into five classes from red (low or bare) to dark green (very dense). Soil maps use a green scale from low to high.</p>
+  <p><strong>Class breaks.</strong> <em>Stretch 98%</em> divides the 2nd to 98th percentile of the forest's own values into five equal classes, which shows variation within one forest. <em>Standard thresholds</em> use fixed values so different forests and dates can be compared. NBR always uses standard thresholds.</p>
+  <p><strong>Images used.</strong> Cloudy pixels are removed and the remaining images are combined into one median image for the period you choose.</p>
+</section>
+
+<section style="padding-top:0">
+  <h2>Contact</h2>
+  <p>Questions or corrections? Write to <a href="mailto:ibrahimuevarist@gmail.com">ibrahimuevarist@gmail.com</a>.</p>
+  <a class="btn" href="app.html">Open the app</a>
+</section>
+</main>
+<footer class="site"><div class="bar"><span>Tanzania Protected and Conserved Areas &middot; built on Google Earth Engine</span><span>&copy; 2026 &middot; <em>Developed by Ibrahimu</em></span></div></footer>
+<script src="welcome.js"></script></body></html>

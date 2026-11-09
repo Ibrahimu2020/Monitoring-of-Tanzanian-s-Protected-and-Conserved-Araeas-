@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"></noscript>
+<link rel="stylesheet" href="style.css"><title>App – Forest Index & Soil Monitor</title></head><body>
+<header class="site"><div class="bar">
+  <a class="brand" href="index.html" aria-label="Nature Pulse – home"><img class="logo" src="logo.png" alt="" width="38" height="43"><span>Nature Pulse</span></a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="app.html" aria-current="page">App</a>
+    <a href="about.html">About</a>
+  </nav>
+</div></header>
+<main class="wide">
+<div class="app-head">
+  <h1>Forest Index &amp; Soil Monitor</h1>
+  <p>Search or select a forest name in the left panel, proceed with other stages then click Run.</p>
+  <p class="app-actions"><a class="btn" id="gee-full" href="https://ibrahimuevarist.users.earthengine.app/view/tanzania-forest-and-game-areas" target="_blank" rel="noopener">Open full screen</a></p>
+</div>
+<div class="frame">
+    <iframe id="gee-app" title="Forest Index and Soil Monitor app"
+          src="https://ibrahimuevarist.users.earthengine.app/view/tanzania-forest-and-game-areas"
+          allow="fullscreen" allowfullscreen loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p class="notice">Panel or results not showing? Use <strong>Open full screen</strong> above, or open the app in its own tab:
+  <a id="gee-link" href="https://ibrahimuevarist.users.earthengine.app/view/tanzania-forest-and-game-areas" target="_blank" rel="noopener">open the app</a>.
+</p>
+</main>
+<footer class="site"><div class="bar"><span>Protected and Conserved Areas in Tanzania &middot; built on Google Earth Engine</span><span>&copy; 2026 &middot; <em>Developed by Ibrahimu</em></span></div></footer>
+<script src="welcome.js"></script></body></html>
